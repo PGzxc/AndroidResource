@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.androidresource.MainActivity">
+
+    <Button
+        android:id="@+id/btn_raw_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="播放Raw中音乐" />
+
+    <Button
+        android:id="@+id/btn_raw_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取Raw中图片" />
+
+    <Button
+        android:id="@+id/btn_assets_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/asset_web" />
+
+    <Button
+        android:id="@+id/btn_assets_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/asset_img" />
+    <Button
+        android:id="@+id/btn_assets_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/asset_music" />
+</LinearLayout>
